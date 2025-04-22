@@ -1,3 +1,3 @@
 CNN(Convolutional Neural Networks)，即卷积神经网络
 
-1
+![pic1](../data/pic1.png)
