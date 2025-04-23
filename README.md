@@ -1,7 +1,7 @@
 ## 关于视觉神经网络的个人学习笔记
 `Author:CrazyApple`
 
-![pic1](data/pic1.JPG)
+![pic1](data/pic1.jpg)
 
 视觉神经网络的学习重点在于两个方面：
 * Python语言的实际运用(涉及Pytorch库及Python基础语法)
@@ -42,7 +42,7 @@
 暂未定(剪枝/蒸馏/优化)
 
 ---
-本笔记采用==Obsidian==软件设计，对于其他markdown软件可能会存在兼容性问题
+本笔记采用**Obsidian**软件设计，对于其他markdown软件可能会存在兼容性问题
 
 插件列表:
 * **Advanced Tables**
