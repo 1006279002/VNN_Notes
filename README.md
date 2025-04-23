@@ -1,6 +1,8 @@
 ## 关于视觉神经网络的个人学习笔记
 `Author:CrazyApple`
 
+![pic1](data/pic1.JPG)
+
 视觉神经网络的学习重点在于两个方面：
 * Python语言的实际运用(涉及Pytorch库及Python基础语法)
 * 各种理论知识储备(网络课程/论文学习)
@@ -14,8 +16,8 @@
 ### 阶段一
 系统学习基本模型和理论
 - [ ] CNN
-- [ ] RNN
-- [ ] LSTM
+- [x] RNN
+- [x] LSTM
 - [ ] GAN
 - [ ] DQN
 - [ ] transformer
@@ -38,3 +40,11 @@
 ---
 ### 阶段三
 暂未定(剪枝/蒸馏/优化)
+
+---
+本笔记采用==Obsidian==软件设计，对于其他markdown软件可能会存在兼容性问题
+
+插件列表:
+* **Advanced Tables**
+* **Copilot**
+* **Excalidraw**
