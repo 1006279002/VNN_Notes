@@ -15,13 +15,13 @@
 ---
 ### 阶段一
 系统学习基本模型和理论
-- [ ] CNN
+- [x] CNN
 - [x] RNN
 - [x] LSTM
 - [ ] GAN
 - [ ] DQN
 - [ ] transformer
-- [ ] Attention
+- [x] Attention
 
 研究模型的发展流程和发展路线
 - [ ] Yolo模型路线
