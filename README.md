@@ -20,7 +20,7 @@
 - [x] LSTM
 - [ ] GAN
 - [ ] DQN
-- [ ] transformer
+- [x] transformer
 - [x] Attention
 
 研究模型的发展流程和发展路线
