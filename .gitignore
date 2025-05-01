@@ -2,3 +2,5 @@
 .obsidian/
 # Ignore folder for storing papers
 论文存放/
+# Ignore copilot-conversations folder
+copilot-conversations/ 
