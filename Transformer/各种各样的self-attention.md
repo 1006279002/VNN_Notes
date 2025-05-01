@@ -28,7 +28,7 @@ attention matrix中可能会有一些很大或很小的数据，将很小的数�
 * 可以使用CNN的方式来挑选
 * 也可以将$d\times N$的key矩阵乘上一个$N\times K$的一个矩阵，从而获得一个$d\times K$的目标矩阵，从而找出$K$个具有代表性的向量
 ### 矩阵计算的运算加速
-[复习一下self-attention的计算过程](自注意力机制#^0d13be)
+[复习一下self-attention的计算过程](../Transformer/自注意力机制.md#^0d13be)
 
 虽然上面的计算过程中是先计算Attention Matrix进行计算，但是这样的计算速度其实是不快的，如果抛开**激活函数**的过程，将原先的计算顺序$O=V(K^TQ)$转换为$O=(VK^T)Q$，这样就可以加快矩阵乘法的运算速度。
 

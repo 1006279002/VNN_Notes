@@ -46,7 +46,7 @@ masked self-attention产生的向量变成query向量$q$，然后把Encoder每�
 
 关键词：Monotonic Attention，Location-aware attention
 ##### Beam Search
-[笔记中同内容部分](../RNN条件生成与Attention机制/条件生成与Attention#^4fe874)
+[笔记中同内容部分](../RNN/条件生成与Attention.md#^4fe874)
 每次选最大是一个**greedy decoding**，而最好情况可能并不是每次选最大，解决方法看上面链接
 
 这个操作不一定是很好的，可能会**不断输出重复的内容**\[[1](https://arxiv.org/pdf/1904.09751)\]

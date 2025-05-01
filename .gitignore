@@ -1,2 +1,4 @@
 # Ignore .obsidian folder
 .obsidian/
+# Ignore folder for storing papers
+论文存放/
