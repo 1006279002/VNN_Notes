@@ -24,22 +24,30 @@
 - [x] Attention
 
 研究模型的发展流程和发展路线
-- [ ] Yolo模型路线
+- [ ] YOLO模型路线
 - [ ] Fast R-CNN路线
 - [ ] mobilenet轻量化模型
 - [ ] VIT transformer运用
 
 ---
 ### 阶段二
-实践模型和实际运用
-- [ ] CNN工件探伤
-- [ ] yolo图像识别
-- [ ] Fast R-CNN学习
-- [ ] ConvLSTM项目学习
+论文研究学习阶段
+
+通过对笔记中提及/经典论文的研读，进行笔记学习拓展，加深对各种模型的理解
+
+- [ ] YOLO
+- [ ] Fast R-CNN
+- [x] Transformer
+- [ ] ViT
+
+* 拓展阅读部分（后续添加）
+* [ ] Linformer
 
 ---
 ### 阶段三
-暂未定(剪枝/蒸馏/优化)
+对实际模型的代码学习，pytorch基本库的学习
+
+- [ ] [Transformer](https://github.com/tensorflow/tensor2tensor)
 
 ---
 本笔记采用**Obsidian**软件设计，对于其他markdown软件可能会存在兼容性问题

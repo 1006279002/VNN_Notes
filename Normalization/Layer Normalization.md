@@ -24,7 +24,7 @@ $$
 | RNN/Transformer适用性| 适用                     | 不适用                  |
 
 ### 3. 在Transformer中的应用
-- 位置：出现在[自注意力机制](../Selfattention/自注意力机制)层和FFN层之后
+- 位置：出现在[自注意力机制](../Transformer/自注意力机制.md)层和FFN层之后
 - 作用：缓解梯度消失/爆炸，允许更深的网络结构
 - 典型配置：
   ```python

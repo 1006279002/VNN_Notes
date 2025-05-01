@@ -3,11 +3,11 @@
 ---
 
 ### 1. **核心创新：Transformer模型**
-- **完全基于注意力机制**：抛弃传统的RNN/CNN，仅用[自注意力机制](../Selfattention/自注意力机制)（Self-Attention）处理序列
+- **完全基于注意力机制**：抛弃传统的RNN/CNN，仅用[自注意力机制](自注意力机制.md)（Self-Attention）处理序列
 - **关键组件**：
   - **多头注意力**（Multi-Head Attention）：**并行**学习不同子空间的注意力模式
   - **位置编码**（Positional Encoding）：用$sin/cos$函数注入位置信息，替代RNN的时序处理
-  - **层归一化**（[LayerNorm](../Batch%20Normalization/Layer%20Normalization)）和残差连接：稳定深层网络训练
+  - **层归一化**（[LayerNorm](../Normalization/Layer%20Normalization.md)）和残差连接：稳定深层网络训练
 
 ---
 
@@ -34,7 +34,7 @@ E --> F[解码器输出]
 - **多头注意力**：
   $$
   \text{MultiHead}(Q,K,V) = \text{Concat}(\text{head}_1,...,\text{head}_h)W^O
-  $$
+  $$$$\text{where}\ head_i=\text{Attention}(QW_i^Q,KW_i^K,VW_i^V)$$
 
 ---
 
