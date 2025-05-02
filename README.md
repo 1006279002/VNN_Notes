@@ -18,16 +18,16 @@
 - [x] CNN
 - [x] RNN
 - [x] LSTM
-- [ ] GAN
-- [ ] DQN
+- [ ] ~~GAN~~
+- [ ] ~~DQN~~
 - [x] transformer
 - [x] Attention
 
 研究模型的发展流程和发展路线
-- [ ] YOLO模型路线
-- [ ] Fast R-CNN路线
-- [ ] mobilenet轻量化模型
-- [ ] VIT transformer运用
+- [x] YOLO模型路线
+- [x] Fast R-CNN路线
+- [x] mobilenet轻量化模型
+- [x] VIT transformer运用
 
 ---
 ### 阶段二
