@@ -28,6 +28,7 @@
 - [x] Fast R-CNN路线
 - [x] mobilenet轻量化模型
 - [x] VIT transformer运用
+- [ ] ResNet运用
 
 ---
 ### 阶段二
