@@ -4,7 +4,7 @@
 
 可以减少大量的参数来完成任务
 
-Reception Field**一致**的神经元集合被称为filter或者kernel，而filter/kernel size就是指reception field中神经元的个数，而神经元的**间隔数**被称为Stride。==filter size=3的reception field其Stride=2==
+Reception Field**一致**的神经元集合被称为filter或者kernel，而filter/kernel size就是指reception field中神经元的个数，而神经元的**间隔数**被称为Stride。==filter size=3的reception field其Stride=2== ^13a8b6
 
 * 1D Single Channel
 	* 直接按照**时间**分类，分割kernel去做不同的事
