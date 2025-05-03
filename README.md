@@ -22,13 +22,14 @@
 - [ ] ~~DQN~~
 - [x] transformer
 - [x] Attention
+- [x] mamba
 
 研究模型的发展流程和发展路线
 - [x] YOLO模型路线
 - [x] Fast R-CNN路线
 - [x] mobilenet轻量化模型
 - [x] VIT transformer运用
-- [ ] ResNet运用
+- [x] ResNet运用
 
 ---
 ### 阶段二
