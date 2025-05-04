@@ -37,10 +37,10 @@
 
 通过对笔记中提及/经典论文的研读，进行笔记学习拓展，加深对各种模型的理解
 
-- [ ] YOLO
-- [ ] Fast R-CNN
+- [x] YOLO
+- [x] Fast R-CNN
 - [x] Transformer
-- [ ] ViT
+- [x] ViT
 
 * 拓展阅读部分（后续添加）
 * [ ] Linformer
@@ -48,7 +48,9 @@
 ---
 ### 阶段三
 对实际模型的代码学习，pytorch基本库的学习
+[[pytorch/学习目录|pytorch学习目录]]
 
+- [ ] [CNN工件探伤项目](https://github.com/1006279002/CNN-SurfaceDefectDetection)(目前是private状态)
 - [ ] [Transformer](https://github.com/tensorflow/tensor2tensor)
 
 ---
