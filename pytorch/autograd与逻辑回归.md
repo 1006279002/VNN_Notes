@@ -302,5 +302,5 @@ for iteration in range(1000):
             break
 ```
 
-结果如下图(引用博客)
+结果如下图(引用博客)<br>
 ![gif2](../data/gif2.gif)
