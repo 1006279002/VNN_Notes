@@ -15,11 +15,11 @@ seq2seq是可以**硬解**一些问题，比方说分析一个句子的文法，
 
 #### Encoder
 Encoder使用self-attention来处理，在每个输入进行self-attention操作后，还要进行**residual connection**，即将输入和self-attention的结果进行**加和**，再进行layer normalization(对**一个向量本身**计算均值和标准差，然后再标准化处理)。然后将结果经过一个Fully Connected NN，再进行一次residual connection，再最后layer normalization后就是**Encoder输出**了
-![pic6](../data/pic6.png)
+<br>![pic6](../data/pic6.png)
 
 #### Autoregressive Decoder
 使用**语音识别**作为例子，Decoder会以Encoder的输出向量作为输入，然后需要给Decoder一个开始符号\<BOS\>，其输出是**大小为所有常规字符**的向量(经softmax后)，这个向量就相当于是这个输入可能对应的字符的**概率**。一般取最高概率的字符作为**下一阶段的输入**，然后不断生成直到生成结束。
-![pic7](../data/pic7.png)
+<br>![pic7](../data/pic7.png)
 
 masked self-attention就是不考虑当前向量右边的向量，只考虑**本身及左边的向量**(类似RNN)，因为Decoder的输出不能以**平行**思考，是有顺序输出的，所以需要进行masked操作
 

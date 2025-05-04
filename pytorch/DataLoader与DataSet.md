@@ -187,10 +187,10 @@ for epoch in range(MAX_EPOCH):
     ...
 ```
 
-通过向下查询函数，可以发现迭代iteration过程中，最终会到一个`fetch()`函数，它拿到的`data`是一个list，每个元素是一个tuple，每个tuple包含**样本**以及**标签**，需要用`self.collate_fn(data)`把data转换成两个list，这就是为什么需要使用`input, labels = data`来接受最终的数据
+通过向下查询函数，可以发现迭代iteration过程中，最终会到一个`fetch()`函数，它拿到的`data`是一个list，每个元素是一个tuple，每个tuple包含**样本**以及**标签**，需要用`self.collate_fn(data)`把data转换成两个list，这就是为什么需要使用`input, labels = data`来接受最终的数据<br>
 ![PyTorch读取数据流程图](../Excalidraw/PyTorch读取数据流程图)
 
 总结一下，首先在 for 循环中遍历`DataLoader`，然后根据**是否采用多进程**，决定使用单进程或者多进程的`DataLoaderIter`。在`DataLoaderIter`里调用`Sampler`生成`Index`的 list，再调用`DatasetFetcher`根据`index`获取数据。在`DatasetFetcher`里会调用`Dataset`的`__getitem__()`方法获取真正的数据。这里获取的数据是一个 list，其中每个元素是 `(img, label) `的**元组**，再使用 `collate_fn()`函数整理成一个 list，里面包含两个元素，分别是 img 和 label 的`tenser`。
 
-附上这个小项目的最终loss曲线结果图
+附上这个小项目的最终loss曲线结果图<br>
 ![svg1](../data/svg1.svg)
