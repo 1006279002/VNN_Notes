@@ -49,7 +49,7 @@
 ### 阶段三
 对实际模型的代码学习，pytorch基本库的学习
 
-[pytorch学习目录](pytorch/学习目录)
+[pytorch学习目录](pytorch/学习目录.md)
 
 - [ ] [CNN工件探伤项目](https://github.com/1006279002/CNN-SurfaceDefectDetection)(目前是private状态)
 - [ ] [Transformer](https://github.com/tensorflow/tensor2tensor)
