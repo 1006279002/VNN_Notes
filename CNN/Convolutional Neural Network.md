@@ -4,7 +4,7 @@
 
 最直觉的处理方式是将所有的像素**拉直**，直接作为一个大向量进行处理(一般是fully connected network)，但是这样带来的**参数数量**实在是太多了，会降低其运行速度，更容易产生**过拟合**
 
-设计**Receptive Field**来初步简化，Receptive Field可以重叠，也可以输入到不同的神经元。尽管Receptive Field可以**任意设计**(长宽、重叠与否)，但是存在一种常规的设置方式
+设计**Receptive Field**来初步简化，Receptive Field可以重叠，也可以输入到不同的神经元。尽管Receptive Field可以**任意设计**(长宽、重叠与否)，但是存在一种常规的设置方式 ^6d3e36
 * 会看所有的channel
 * kernel size一般是正方形设计(e.g. $3\times 3$)
 * 每一个Receptive Field存在一组神经元(e.g. 64个神经元)

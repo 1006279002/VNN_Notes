@@ -126,7 +126,7 @@ train_loader = DataLoader(dataset=train_data, batch_size=BATCH_SIZE, shuffle=Tru
 valid_loader = DataLoader(dataset=valid_data, batch_size=BATCH_SIZE)
 ```
 
-第二部设置模型，这里直接采用Lenet图片分类网络
+第二部设置模型，这里直接采用Lenet图片分类网络 ^93820c
 ```python
 net = LeNet(classes=2)
 net.initialize_weights()
