@@ -193,4 +193,4 @@ for epoch in range(MAX_EPOCH):
 总结一下，首先在 for 循环中遍历`DataLoader`，然后根据**是否采用多进程**，决定使用单进程或者多进程的`DataLoaderIter`。在`DataLoaderIter`里调用`Sampler`生成`Index`的 list，再调用`DatasetFetcher`根据`index`获取数据。在`DatasetFetcher`里会调用`Dataset`的`__getitem__()`方法获取真正的数据。这里获取的数据是一个 list，其中每个元素是 `(img, label) `的**元组**，再使用 `collate_fn()`函数整理成一个 list，里面包含两个元素，分别是 img 和 label 的`tenser`。
 
 附上这个小项目的最终loss曲线结果图<br>
-![svg1](../data/svg1.svg)
+![svg1](../data/svg1.svg) ^df8ab8
